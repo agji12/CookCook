@@ -44,9 +44,10 @@ public class ChatGPTProvider {
 		HttpRequest request = HttpRequest.newBuilder().uri(URI.create(apiUrl))
 				.header("Content-Type", "application/json").header("Authorization", "Bearer " + apiKey)
 				.POST(HttpRequest.BodyPublishers.ofString(requestBody)).build();
-
+		System.out.println(request);
 		// API 요청 전송 및 응답 처리
 		HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+		System.out.println(response);
 		int statusCode = response.statusCode();
 		String responseBody = response.body();
 		// 응답 출력

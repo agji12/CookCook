@@ -16,6 +16,10 @@ openAI를 활용한 식단 추천, 식단표 목록으로부터 재료 추출, �
 * @agji12 (김은지)
 * @Uoioio (조유진)
 
+<p align="center">
+    <img src="https://github.com/sinichiee/CookCook/assets/127912681/b53429a8-10e5-4750-8e49-6ed83a3807ac">
+</p>
+
 ### Stacks
 .
 
